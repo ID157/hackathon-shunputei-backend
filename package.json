@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "hasura-cli": "1"
+  },
+  "scripts": {
+    "apply": "yarn hasura migrate apply && yarn hasura metadata apply",
+    "console": "yarn hasura console"
+  },
+  "license": "",
+  "private": "true"
+}
