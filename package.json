@@ -1,4 +1,5 @@
 {
+  "name": "hackathon-shunputei-backend",
   "dependencies": {
     "hasura-cli": "1"
   },
