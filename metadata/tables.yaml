@@ -45,7 +45,7 @@
     permission:
       check: {}
       columns:
-      - color
+      - type
       - content
       - id
   - role: user
@@ -55,7 +55,7 @@
           firebase_uid:
             _eq: X-Hasura-User-Id
       columns:
-      - color
+      - type
       - content
       - id
       - user_id
@@ -63,7 +63,7 @@
   - role: user
     permission:
       columns:
-      - color
+      - type
       - content
       - id
       - user_id
